@@ -1,12 +1,11 @@
 {
-  "name": "Telegram Torrent Leecher",
+  "name": "Snowflake Custom - Telegram Torrent Leecher",
   "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
-  "success_url": "https://t.me/torrentleechgdrivesupport",
-  "website": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
+  "repository": "https://github.com/sagirisayang/SnowflakeCustom-GautamRepo",
+  "website": "https://github.com/sagirisayang/SnowflakeCustom-GautamRepo",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -21,15 +20,15 @@
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "get this value from @BotFather",
+      "description": "Get this value from @BotFather",
       "value": ""
     },
     "AUTH_CHANNEL": {
-      "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
+      "description": "Should be an integer. The BOT API ID of the Telegram Group, where the bot will work.",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "should be an integer. ID of owner of bot",
+      "description": "Should be an integer. ID of owner of bot",
       "value": ""
     },
     "UPLOAD_AS_DOC": {
@@ -37,34 +36,34 @@
       "required": false
     },
     "CHUNK_SIZE": {
-      "description": "should be an integer",
+      "description": "Should be an integer (ignore)",
       "value": "128",
       "required": false
     },
     "ARIA_TWO_STARTED_PORT": {
-      "description": "should be an integer. The port on which aria2c daemon must start, and keep listening.",
+      "description": "Should be an integer. The port on which aria2c daemon must start, and keep listening. (ignore)",
       "value": "6800",
       "required": false
     },
     "EDIT_SLEEP_TIME_OUT": {
-      "description": "should be an integer. Number of seconds to wait before editing a message.",
+      "description": "Should be an integer. Number of seconds to wait before editing a message. (ignore)",
       "value": "15",
       "required": false
     },
     "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
-      "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
+      "description": "Should be an integer. Number of seconds to wait before cancelling a torrent. (ignore)",
       "required": false
     },
     "FINISHED_PROGRESS_STR": {
-      "description": "should be a single character.",
+      "description": "Should be a single character. For finished progress bar.",
       "required": false
     },
     "UN_FINISHED_PROGRESS_STR": {
-      "description": "should be a single character.",
+      "description": "should be a single character. For unfinished progress bar.",
       "required": false
     },
     "TG_OFFENSIVE_API": {
-      "description": "should be an URL accepting the FormParams {i}, {m}, and {t}",
+      "description": "should be an URL accepting the FormParams {i}, {m}, and {t}. (dunno what this is)",
       "required": false
     },
     "LEECH_COMMAND": {
